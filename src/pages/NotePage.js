@@ -47,7 +47,8 @@ const NotePage = ({ match, history }) => {
         'content-Type': 'application/json'
       },
     })
-    navigate('/notes/')
+    navigate('/')
+    navigate(0)
   }
 
   let handleSubmit = () => {
@@ -60,7 +61,8 @@ const NotePage = ({ match, history }) => {
     }
     // console.log(note.body)
 
-    navigate('/notes/')
+    navigate('/')
+    navigate(0)
   }
 
   let handleChange = (value) => {
